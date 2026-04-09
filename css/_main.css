@@ -1,0 +1,184 @@
+/*--------------------------------------------------------------------------------*/
+/* ELEMENT SELECTORS */
+
+body {
+    font-family: "PT Sans", sans-serif;
+    color: white;
+    font-size: 12pt;
+    background-image: url("../images/crossword_faded.jpeg");
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+button {
+    font: inherit;
+    color: white;
+    background-color: maroon;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    margin-top: 0.5rem;
+    cursor: pointer;
+}
+
+figcaption {
+    text-align: center;
+    padding: 1rem;
+}
+
+footer {
+    background-color: maroon;
+    color: whitesmoke;
+    padding: 1rem 0rem;
+    width: 100%;
+}
+
+footer p {
+    margin-left: 3rem;
+}
+
+form {
+    background-color: maroon;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+h1 a {
+    font-size: 2rem;
+    font-weight: normal;
+    color: rgb(187, 35, 35);
+    white-space: nowrap;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header {
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px white;
+    width: 100%;
+    padding: 1rem 0rem;
+    justify-content: space-between;
+}
+
+header, footer {
+    flex-shrink: 0;
+}
+
+header li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+img {
+    border: 0.1rem dashed rgb(60, 60, 60);
+    width: 20rem;
+    border-radius: 100%;
+}
+
+
+input, textarea {
+    padding: 0.5rem;
+}
+
+legend {
+    text-align: center;
+    width: 100%;
+    padding: 0.8rem 0rem;
+}
+
+li a {
+    color: rgb(150, 150, 150);
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 2rem 3rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+/*--------------------------------------------------------------------------------*/
+/* CLASS SELECTORS */
+
+.button {
+    border-radius: 0.5rem;
+    width: 5rem;
+}
+
+.buttoncontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.page__title {
+    font-size: 3rem;
+}
+
+.textboxcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+/*--------------------------------------------------------------------------------*/
+/* ID SELECTORS */
+
+#header__logout {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+#header__spacer-1 {
+    flex-grow: 1;
+}
+
+#header__spacer-2 {
+    flex-grow: 2;
+}
+
+/*--------------------------------------------------------------------------------*/

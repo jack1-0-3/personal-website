@@ -1,0 +1,9 @@
+html, body, div, header, footer, nav, section, article, figure,
+figcaption, ul, ol, li, div, span, h1, h2, h3, h4, h5, h6, p, 
+a, img, hgroup, form, fieldset, legend, input, textarea {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1rem;
+    vertical-align: baseline;
+}

@@ -1,0 +1,41 @@
+hr {
+    border: 2px solid white;
+    width: 100%;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.page__blogpost {
+    background-color: maroon;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.page__blogpost time {
+    align-self: flex-end;
+    text-align: right;
+    color: #fff;
+    font-size: 0.95em;
+    margin-bottom: 0.5rem;
+}
+
+.page__blogpost h2,
+.page__blogpost p {
+    align-self: flex-start;
+    text-align: left;
+}
+
+.reply-btn {
+    align-self: flex-start;
+}
+
+.delete-blog-btn {
+    align-self: flex-end;
+    margin: 0rem 0rem 1rem;
+}
